@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    background-image:url("game.jpg");
+    background-size: cover;
+
+}
+
+.container{
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 33%;
+    gap: 3vh;
+}
+
+.box{
+    height: 20vh;
+    width:20vh;
+    opacity: 0.8;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 6rem;
+    background-color: #58A4B0;
+    box-shadow: 
+ /* Strong gold glow */
+    0 0 60px rgba(255, 223, 0, 0.9), /* Bright layer */
+    0 0 100px rgba(255, 223, 0, 0.8), /* Larger glow */
+    0 0 140px rgba(255, 223, 0, 0.6);
+}
+
+.reset{
+    background-color: black;
+    color: azure;
+    margin-top: 10px;
+    height: 50px;
+    width: 130px;
+    border-radius: 11px;
+}
+
+.overlay {
+    position: fixed; 
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 50%; 
+    border-radius: 25px;
+    background-color: #A9BCD0; 
+    border:3px solid black;
+    display: none;
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(9, 1, 1);
+    z-index: 1000; 
+    font-family: Arial, sans-serif;
+    box-shadow: 5px 3px 10px black;
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(15, 141, 59);
+    text-shadow: 
+                0 0 30px rgba(80, 200, 120, 1),   /* Bright emerald glow */
+                0 0 60px rgba(80, 255, 140, 0.9), /* Inner vivid layer */
+                0 0 100px rgba(80, 255, 140, 0.7), /* Larger glow */
+                0 0 150px rgba(80, 255, 140, 0.5);
+}
+
+#closeButton {
+    margin-top: 20px;
+    border: none;
+    color: rgb(211, 10, 10);
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.draw {
+    position: fixed; 
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 50%; 
+    border-radius: 25px;
+    background-color: #A9BCD0; 
+    border:3px solid black;
+    display: none;
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(9, 1, 1);
+    z-index: 1000; 
+    font-family: Arial, sans-serif;
+    box-shadow: 5px 3px 10px black;
+    opacity: 0.7;
+}
+
+#Buton {
+    margin-top: 20px;
+    border: none;
+    color: rgb(211, 10, 10);
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
